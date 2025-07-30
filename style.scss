@@ -5,12 +5,13 @@ html {
 }
 html, body {
 	width:100%; height:100%; margin:0; padding:0; color:#333; font-style:normal; 
-	font-size: 12px; font-family:'nsr',NanumBarunGothic,NanumBarunGothicWeb,'돋움',dotum,Helvetica,sans-serif;
+	font-size: 12px; font-family:'nsr','NanumBarunGothic','NanumBarunGothicWeb','돋움','dotum',Helvetica,sans-serif;
 	line-height:160%; border:0 none; 
 }
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 
-body		{ font-family: 'NanumSquare', sans-serif }
+body		{ font-family: 'Nanum Gothic', sans-serif;}
 .normal		{ font-weight: 400 }
 .bold		{ font-weight: 700 }
 .bolder		{ font-weight: 800 }
@@ -705,6 +706,13 @@ body{
           width: 673px;
           margin-bottom: 30px;
         }
+        .sub-title {
+          text-align: center;
+          margin-bottom: 30px;
+          background-color: transparent;
+          font-size: 2em;
+          color: #999;
+        }
         img{
            width: 90%;
            margin: auto;
@@ -782,6 +790,7 @@ body{
       line-height: 30px;
       text-align: center;
       padding: 0px 20px 30px 20px;
+      font-family: 'Nanum Gothic'
     }
     .web{
       display: block;
@@ -797,6 +806,7 @@ body{
     }
     .slide-dec{
       background-color: #fff0ef;
+      font-family: 'Nanum Gothic'
     }
     .slide-level{
       padding-bottom: 30px;
@@ -861,6 +871,7 @@ body{
     }
     .mo{
       display: block!important;
+      width: 100%;
     }
     .good-readigngate, .level-composition{
       .point{
@@ -936,7 +947,7 @@ body{
         }
       }
       .point-step{
-        
+        font-family: 'Nanum Gothic'
         img{
           max-width: 80%!important;
           height: auto!important;
@@ -982,7 +993,7 @@ body{
         }
       }
       .point-step{
-        padding: 0;
+        padding: 0 0 30px 0;
       }
     }
   .ai-sudio{
